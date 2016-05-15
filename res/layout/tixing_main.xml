@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+       style="@style/title_bar_style" >
+
+        <TextView
+        android:id="@+id/back_tx"
+        android:text="返回"
+        style="@style/back_view" />
+        
+        <TextView
+        android:id="@+id/title_tx"
+        style="@style/title_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:text="系统提醒"/>
+     </RelativeLayout>
+     <ListView 
+        android:id="@+id/tixing_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

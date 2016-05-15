@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="lib/BmobSDK_V3.4.5_1111.jar"/>
+	<classpathentry kind="lib" path="lib/com.umeng.message.lib.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/ksoap2-android-assembly-2.5.4-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/locSDK_3.1.jar"/>
+	<classpathentry kind="lib" path="lib/mta-sdk-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/open_sdk.jar"/>
+	<classpathentry kind="lib" path="lib/pinyin4android1.0.jar"/>
+	<classpathentry kind="lib" path="lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/umeng-analytics-v5.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/umeng-fb-v4.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/umeng-update-v2.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/universal-image-loader-1.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/YoumiSdk_v4.09_2014-06-16.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

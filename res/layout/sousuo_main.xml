@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 头部 -->
+
+    <RelativeLayout style="@style/title_bar_style" >
+
+        <TextView
+            android:id="@+id/sousuo_back"
+            style="@style/back_view"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/title_ss"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="搜你所想" />
+    </RelativeLayout>
+    <!-- 搜索框 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#65FFFFCC" >
+
+        <EditText
+            android:id="@+id/sousuo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="只要你要，只要我有"
+            android:textSize="20dp"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/sousuo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/sousuo_text"
+            android:background="#ffcc3131"
+            android:text="搜索"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/sousuo_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
